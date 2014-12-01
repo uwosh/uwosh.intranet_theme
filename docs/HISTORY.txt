@@ -1,0 +1,65 @@
+Changelog
+=========
+
+0.3 (2012-01-18)
+----------------
+
+- adding all the skin resources (images, CSS, templates) from beta
+  Intranet site
+
+- custom recent items portlet template to omit dates
+
+- added top level navigation bar and footer from standard campus skin
+
+- added smaller word mark from our approved demo Intranet skin
+
+- added the banner from standard campus skin that includes the logo,
+  clickable site title taken from Site Setup or ZMI Properties tab,
+  and the custom Google search box
+
+- cleaned out main.css and removed it from configure.zcml
+
+
+0.2.5 (2012-01-13)
+------------------
+
+- the top links viewlet is attached to two viewlet managers now to
+  restore old behaviour
+
+
+0.2.4 (2012-01-05)
+------------------
+
+- moved top links viewlet to the PortalTop viewlet manager and changed
+  the theme it is attached to, to uwosh.themecollege
+
+
+0.2.3 (2011-10-21)
+------------------
+
+- changed wrapper <dl> CSS ID to "uwoshtoplinkswrapper"
+
+
+0.2.2 (2011-10-19)
+------------------
+
+- add some nice Manager shortcuts in portal_actions/user
+
+
+0.2.1 (2011-10-19)
+------------------
+
+- assigns a CSS ID uwoshtoplink-XXX where XXX is the CMFAction ID
+
+
+0.2 (2011-10-18)
+----------------
+
+- Imports and reads from portal_actions "uwosh_toplinks" folder of
+  CMFActions
+
+
+0.1 (2011-10-16)
+----------------
+
+- Initial release

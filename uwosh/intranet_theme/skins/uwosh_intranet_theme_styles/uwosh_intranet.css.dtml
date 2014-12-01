@@ -1,0 +1,505 @@
+ /*========================================
+   TOP LEVEL NAVIGATION
+ ==========================================*/
+
+ #top_level_navigation {
+	font-family: Helvetica;
+	font-size: 11px;
+	line-height: 17px;
+ 	display:inline;
+ 	width:100%;
+ 	float:left;
+    text-align:center;
+	background-image:url(&dtml-portal_url;/background.jpg);
+	background-attachment:fixed;
+	background-position:top center;
+
+ }
+
+  #top_level_navigation ul {
+	display:inline-block;
+/*float:left;*/
+ 	text-align:center;
+ 	width:100%;
+ 	padding-top:5px;
+ 	margin:0px;
+	width:880px;
+ 	background-image:url(&dtml-portal_url;/siteActionsBak.jpg);
+ 	background-repeat:repeat-x;
+ 	background-position:top;
+        background-color:#717173;
+ }
+
+
+ #top_level_navigation ul li {
+ 	float:left;
+ 	list-style-type:none;
+ }
+
+ #top_level_navigation ul li a {
+ 	padding:2px 10px 2px 10px;
+ 	display:block;
+ 	border-right:solid 1px #999999;
+ 	color:#ffffff;
+ 	border-bottom:none;
+ 	text-decoration:none;
+ }
+
+ #top_level_navigation ul li{
+ 	float:left;
+ 	list-style-type:none;
+ }
+
+ #portal-top .titan_servicesNav {
+ 	float:right;
+	margin-right:10px;
+ 	background-image:url(&dtml-portal_url;/titanServicesBak.jpg);
+ }
+
+ #portal-top .titan_servicesNav a {
+ 	background-image:url(&dtml-portal_url;/arrow.png);
+ 	background-repeat:no-repeat;
+ 	background-position: right center;
+ 	padding-right:20px;
+	border-right:none;
+ }
+
+
+/*========================================
+   FOOTER
+ ==========================================*/
+
+#uwoshFooter {
+	font-family: Helvetica;
+	font-size: 11px;
+	line-height: 17px;
+	width: 78px;
+	background-image:url(&dtml-portal_url;/footerBak.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:white!important;
+	float:left;
+	width:940px;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+ul#footerMap:first-child {
+	margin-left:60px;
+}
+.footerMap {
+	float:left;
+	width:130px;
+	margin:0px;
+}
+.footerMap li {
+	list-style-type:none;
+	margin:1px;
+}
+.footerMap li a {
+	text-decoration:none;
+	color:#666666;
+}
+#resources table {
+	text-align:center;
+	width:300px;
+	margin-right:10px;
+	float:right;
+}
+#resources img {
+	padding-bottom:5px;
+}
+.footerMap .small-textMap, .footerMap .normal-textMap, .footerMap .large-textMap {
+	display:none;
+}
+
+
+/*=========================
+       GENERAL
+==========================*/
+
+
+#portal-logo img {
+margin-top:20px;
+}
+
+
+/*=========================
+       UWOTopLinks
+==========================*/
+#uwoshtoplinkswrapper {
+text-align:left;
+background-color:#13387b;
+width:100%;
+padding:5px 0px 5px 0px;
+margin:0px;
+}
+
+dl#uwoshtoplinks dt {
+background-color:transparent;
+}
+
+dt#uwoshtoplinks  a {
+color:white;
+padding:0px 0px 3px 15px;
+margin:0px 10px 0px 5px;
+font-family:Arial!important;
+font-size:.7em;
+float:left;
+}
+
+a#uwoshtoplink-SiteIndex {
+background-image:url(icons/indexIcon.png);
+background-repeat:no-repeat;
+}
+
+a#uwoshtoplink-TitanMail {
+background-image:url(icons/mailIcon.png);
+background-repeat:no-repeat;
+padding-left:22px!important;
+}
+
+a#uwoshtoplink-Directory {
+background-image:url(icons/uwoIndex.png);
+background-repeat:no-repeat;
+padding-left:20px!important;
+}
+
+a#uwoshtoplink-TitanFiles {
+background-image:url(icons/titanFilesIcon.png);
+background-repeat:no-repeat;
+
+}
+
+a#uwoshtoplink-D2L {
+background-image:url(icons/d2lIcon.png);
+background-repeat:no-repeat;
+padding-left:29px!important;
+}
+
+a#uwoshtoplink-Library {
+background-image:url(icons/polkIcon.png);
+background-repeat:no-repeat;
+padding-left:17px!important;
+}
+
+a#uwoshtoplink-MyUWO {
+background-image:url(icons/myuwoIcon.png);
+background-repeat:no-repeat;
+}
+
+a#uwoshtoplink-StudentClubsAndOrgs {
+background-image:url(icons/clubsIcon.png);
+background-repeat:no-repeat;
+}
+
+a#uwoshtoplink-TitanJobs {
+background-image:url(icons/jobsIcon.png);
+background-repeat:no-repeat;
+}
+
+/*=========================
+       HEADER
+==========================*/
+#portal-header {
+background-image:url(blueGrad.jpg);
+background-repeat:repeat-x;
+background-position:bottom;
+
+}
+
+#portal-top {
+background-image:URL(lineFaded.png);
+background-repeat:repeat-y;
+background-position:98%;
+margin-bottom:20px;
+}
+
+/*=========================
+       SEARCH
+==========================*/
+
+.LSBox .searchButton {
+background-image: linear-gradient(bottom, rgb(80,80,88) 22%, rgb(91,91,101) 61%, rgb(36,36,39) 81%);
+background-image: -o-linear-gradient(bottom, rgb(80,80,88) 22%, rgb(91,91,101) 61%, rgb(36,36,39) 81%);
+background-image: -moz-linear-gradient(bottom, rgb(80,80,88) 22%, rgb(91,91,101) 61%, rgb(36,36,39) 81%);
+background-image: -webkit-linear-gradient(bottom, rgb(80,80,88) 22%, rgb(91,91,101) 61%, rgb(36,36,39) 81%);
+background-image: -ms-linear-gradient(bottom, rgb(80,80,88) 22%, rgb(91,91,101) 61%, rgb(36,36,39) 81%);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+color:white;
+padding:3px 20px;
+border-style:none;
+
+}
+
+#LSResult {
+z-index:30;
+}
+
+/*=========================
+       PERSONAL TOOLBAR
+==========================*/
+#portal-personaltools-wrapper {
+position:absolute;
+top:0px;
+z-index:50;
+}
+
+/*=========================
+       TABS
+==========================*/
+#portal-globalnav {
+font-family:"Futura";
+font-stretch:condensed;
+font-size:1em;
+}
+
+#portal-globalnav, #portal-globalnav li a{
+background: rgb(97,104,112); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(97,104,112,1) 0%, rgba(43,49,54,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(97,104,112,1)), color-stop(100%,rgba(43,49,54,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(97,104,112,1) 0%,rgba(43,49,54,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(97,104,112,1) 0%,rgba(43,49,54,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(97,104,112,1) 0%,rgba(43,49,54,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(97,104,112,1) 0%,rgba(43,49,54,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616870', endColorstr='#2b3136',GradientType=0 ); /* IE6-9 */
+color:white;
+}
+
+#portal-globalnav .selected a {
+background-color:#7f8891;
+}
+
+#portal-globalnav li a{
+padding-bottom:10px!important;
+border:none;
+margin:0px;
+min-width:3em;
+}
+
+
+#portal-globalnav ul.submenu li a{
+background-color:#2b3136!important;
+color:white!important;
+background-image:none!important;
+padding-left:20px!important;
+font-stretch:normal;
+font-size:.8em;
+
+}
+
+#portal-globalnav li#portaltab-for_faculty a {
+background-image:URL(arrowTrans.png);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:30px;
+}
+
+#portaltab-for_faculty.plain, #portaltab-for_staff .plain, #portaltab-for_students .plain, #portaltab-Groups .plain {
+background: rgb(138,138,138); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(138,138,138,1) 0%, rgba(96,96,96,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,138,138,1)), color-stop(100%,rgba(96,96,96,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(138,138,138,1) 0%,rgba(96,96,96,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(138,138,138,1) 0%,rgba(96,96,96,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(138,138,138,1) 0%,rgba(96,96,96,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(138,138,138,1) 0%,rgba(96,96,96,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a8a8a', endColorstr='#606060',GradientType=0 ); /* IE6-9 */
+}
+
+#portaltab-RESOURCES_FOR_LABEL.plain a{
+background-image:URL(dots.png);
+background-repeat:no-repeat;
+background-position:3px 
+
+}
+
+/*=========================
+       PORTLETS
+==========================*/
+.portletWrapper dl.portletRecent dd {
+padding:3px;
+}
+
+
+
+/*=========================
+       MAINPAGE SEARCH
+==========================*/
+
+#mainPageSearchForm h1.documentFirstHeading {
+color:#1a2e58;
+}
+
+#mainPageSearchForm .formHelp {
+display:none;
+}
+
+#mainPageSearchForm label {
+display:none;
+}
+
+#mainPageSearchForm input#SearchableText {
+width:400px;
+}
+
+#mainPageSearchForm input#SearchableText{
+float:left;
+margin-right:10px;
+}
+
+#mainPageSearchForm input.context {
+height:27px;
+background-color:#2c2c32;
+color:white;
+padding:5px 10px;
+font-weight:bold;
+border:none!important
+
+}
+
+
+/* fix problem with personaltools being hidden by portal_tabs, maybe caused by webcouturier.dropdownmenu */
+
+
+dl #portal-personaltools {
+    z-index:20!important;
+}
+
+#portal-globalnav {
+    z-index:21!important;
+}
+
+ul .submenu {
+    z-index:22!important;
+}
+
+/* for custom front search page */
+
+div input#SearchableText {
+    width: 100%;
+}
+
+.field input[type="text"] {
+    font: 17px arial, sans-serif;
+}
+
+/*=========================
+       RESOURCE
+==========================*/
+
+
+
+.section-custom-front-page #resourcesDashboard {
+width:200px;
+float:left;
+padding:10px;
+text-align:center;
+color:grey;
+border-right:solid 1px grey;
+margin-right:20px;
+
+}
+
+
+.section-custom-front-page #parent-fieldname-text {
+padding: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin: 10px;
+width: 510px!important;
+background-image:url("resourcesBackground.jpg");
+background-position:bottom;
+background-repeat:repeat-x;
+background-color:black;
+float:left;
+color:grey;
+font-weight:bold;
+}
+
+.section-custom-front-page #resourcesResource a{
+padding:20px;
+
+
+}
+
+div #parent-fieldname-text {
+padding: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin: 10px;
+
+
+}
+
+
+
+
+
+
+/* for responsive theme tweaks, suggested by Rob Porter! */
+
+@media (max-width : 600px) {
+  #portal-column-content { margin-left: -99% !important; }
+  #portal-globalnav ul.submenu li  {display: none !important; }
+}
+
+/* uncomment the below selector to get a fixed-width layout. *
+ * 60em is equivalent to 960px in this case, and every       *
+ * grid cell will be 40px with 10px padding.                 */
+
+/* #visual-portal-wrapper { width: 60em; margin: 0 auto; } */
+
+/* To change the link color (or the navigation link  background), uncomment *
+ * the selectors below, and insert new color values:                        */
+
+/*
+a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited { 
+    color: red;
+}
+#portal-globalnav .selected a, #portal-globalnav a:hover { 
+    background-color: red;
+}
+*/
+
+/* To change the edit bar color, uncomment the selectors below, and insert *
+ * new color values:                                                        */
+
+/*
+#contentActionMenus,
+dl.actionMenu.activated dd,
+#content-views,
+#edit-bar {
+	background-color: blue;
+	border-color: blue;
+}
+dl.actionMenu a {
+	background-color: blue;
+}
+*/
+
+/* If you want to hide the path bar (aka. breadcrumbs), uncomment the below: */
+
+/*
+#breadcrumbs-you-are-here,
+#breadcrumbs-home,
+#breadcrumbs-current,
+#breadcrumbs-1 {
+    display: none;
+}
+*/
+
+/* If you want variables in the CSS (for example for colors that are used     *
+ * in several locations), Plone has a built-in facility for this. An example  *
+ * is shown below, the variables are defined in the file "base_properties",   *
+ * and below we show the syntax for using them directly in the CSS file.      *
+ * Note that you always need to surround the relevant part (or the entire CSS *
+ * file) with the dtml-with statements for it to work.                        */
+
+/*
+
+/* 
+    #content a:link { color: #205c90; }
+*/
